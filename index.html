@@ -23,7 +23,13 @@
             background-attachment: fixed;
             background-size: cover;
         }
+        .small-text{
+            color: blue;
+        }
     </style>
+    <script>
+        alert('are you aokay?');
+    </script>
 </head>
 <body>
     <!--headings-->
@@ -57,7 +63,7 @@
 
     <!--quotations-->
     <p>I like to watch <abbr title="World Wrestling Entertainment">WWE</abbr>.</p>
-    <blockquote cite="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, aspernatur? Fugiat alias debitis odit dolorum temporibus ut, tempora mollitia. Sit illo velit beatae, quo vel quas rerum expedita ducimus ea.</blockquote>
+    <blockquote cite="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, aspernatur? Fugiat alias debitis odit dolorum <span class="small-text">temporibus ut, tempora mollitia.</span> Sit illo velit beatae, quo vel quas rerum expedita ducimus ea.</blockquote>
     <p>My favourite quote is: <q>Never look back with your tearing pasts.</q></p>
 
     <!--comments-->
@@ -86,5 +92,77 @@
 
     <!--background images-->
     <p id="para-for-bi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius molestias aliquid velit nobis soluta animi eos culpa nihil tempore quod similique, esse, optio ex. Expedita aliquam blanditiis id ipsam?</p>
+
+    <!--tables-->
+    <table>
+        <caption>Marks for HTML Exam:</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shohan</td>
+                <td>46544686</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Suraiya</td>
+                <td>16444486</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Rimi</td>
+                <td>26554684</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>Pinky</td>
+                <td>66544182</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--lists-->
+    <!--unordered lists-->
+    <div>
+        <ul>
+            <li>Mango</li>
+            <li>Orange</li>
+            <li>Banana</li>
+        </ul>
+    </div>
+    <!--ordered lists-->
+    <div>
+        <ol>
+            <li>Superman</li>
+            <li>Spiderman</li>
+            <li>Supergirl</li>
+        </ol>
+    </div>
+
+    <!--iframes-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rImHVpqWjzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!--external scripts-->
+    <script src="script.js"></script>
+
+    <!--computer codes-->
+    <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+    <code>
+        x = 5;
+        y = 6;
+        z = x + y; 
+    </code>
+
+    <!--copyright-->
+    &copy; 2022
+
+    <!--forms-->
+    
 </body>
 </html>
