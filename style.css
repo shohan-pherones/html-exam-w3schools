@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#text-link{
+    color: tomato;
+    text-decoration: none;
+}
+#text-link:visited{
+    color: tomato;
+    text-decoration: none;
+}
+#text-link:hover{
+    color: crimson;
+    text-decoration: underline;
+    transition: all 0.3s linear;
+}
+#text-link:active{
+    color: purple;
+    text-decoration: underline;
+}
+#button-link{
+    color: white;
+    background-color: tomato;
+    padding: 10px 25px;
+}
+#button-link:visited{
+    color: white;
+    background-color: tomato;
+    padding: 10px 25px;
+}
+#button-link:hover{
+    color: white;
+    background-color: crimson;
+    padding: 10px 25px;
+    transition: all 0.3s linear;
+}
+#button-link:active{
+    color: white;
+    background-color: purple;
+    padding: 10px 25px;
+}
